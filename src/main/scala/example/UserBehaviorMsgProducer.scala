@@ -67,6 +67,7 @@ class UserBehaviorMsgProducer(brokers: String, topic: String) extends Runnable {
     }
   }
 }
+
 object UserBehaviorMsgProducerClient {
   def main(args: Array[String]) {
     if (args.length < 2) {
